@@ -8,4 +8,4 @@ The Bot should be able to answer queries regarding net banking.
 
 
 https://trpbank.netlify.app
-Click the link for current update.
+Click the link for more update.
