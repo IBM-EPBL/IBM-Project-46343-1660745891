@@ -2,11 +2,10 @@
 ## AI based discourse for Banking Industry
 ### Technology: Artificial Intelligence
 <hr/>
-<h2>AI based discourse for Banking Industry</h2>
 
 **Team ID:** PNT2022TMID31628
 
-**Team Size:**4
+**Team Size:** 4
 
 **Batch:** B8-2A4E
 
@@ -24,5 +23,7 @@ In this project, we will be building a chatbot using Watson's assistant. This ch
 - The Bot should be able to answer queries regarding net banking.
 
 **Finale Deliverable**
+
 https://trpbank.netlify.app
+
 <b>Click the link for more update.</b>
