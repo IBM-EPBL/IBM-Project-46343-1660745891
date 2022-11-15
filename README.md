@@ -22,8 +22,15 @@ In this project, we will be building a chatbot using Watson's assistant. This ch
 - The Bot should be able to answer general banking queries.
 - The Bot should be able to answer queries regarding net banking.
 
+**Project Objectives:** 
+
+- 󠁧󠁢󠁳󠁣󠁴󠁿Work with Watson Assistant
+- 󠁧󠁢󠁳󠁣󠁴󠁿Create Skills in Watson Assistant
+- 󠁧󠁢󠁳󠁣󠁴󠁿Use Entities, Intents, Dialogues
+- Deploy skill to generate a preview link
+
 **Finale Deliverable**
 
 https://trpbank.netlify.app
 
-<b>Click the link for more update.</b>
+<b>Click the above link for more update.</b>
