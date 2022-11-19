@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+<meta charset="UTF-8"> 
+<title>TRP-BANK</title> 
+<script>
+        console.log("asd")
+    </script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> 
+<script>
+     window.watsonAssistantChatOptions = {
+       integrationID: "aa48965f-f929-410f-a38f-8b24eebcfbcf", // The ID of this integration.
+       region: "us-south", // The region your integration is hosted in.
+       serviceInstanceID: "971725a9-5b19-4933-aafa-8d5f021c407a", // The ID of your service instance.
+       onLoad: function(instance) { instance.render(); }
+     };
+     setTimeout(function(){
+       const t=document.createElement('script');
+       t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+       document.head.appendChild(t);
+     });
+   </script>
+
+<style>
+     body{
+          background-image: url(/static/ggg.jpg);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+          background-position: center;          
+           background-size: cover;
+     }
+
+#hero {
+  width: 90%;
+  height: 100vh;
+}
+
+/* background blur black color */
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero .container {
+  padding-top: 220px;
+  text-align: center;
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 53px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #03e9f4;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn{
+  display: inline-block;
+  border: 2px solid #03e9f4;
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+/* content below content  */
+
+#hero h2 {
+  color: rgba(0, 0, 0, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+</style> 
+
+</head> 
+     <body>
+          <section id="hero" class="d-flex align-items-center justify-content-center">
+            <div class="container" data-aos="fade-up">
+              <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+                <div class="col-xl-6 col-lg-8">
+                  <h1>AI Based Discourse for Banking Industry</h1>
+                  <h2>Chatbots for banking and finance operations.</h2><br>
+                  <form action="/cards">
+                  <button class="btn btn-outline-light scrollto ">more info</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+     </body>
+</body>
+</html>

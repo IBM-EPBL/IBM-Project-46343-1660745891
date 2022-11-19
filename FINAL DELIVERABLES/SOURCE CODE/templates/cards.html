@@ -1,0 +1,167 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+ 
+ <script>
+     window.watsonAssistantChatOptions = {
+       integrationID: "aa48965f-f929-410f-a38f-8b24eebcfbcf", // The ID of this integration.
+       region: "us-south", // The region your integration is hosted in.
+       serviceInstanceID: "971725a9-5b19-4933-aafa-8d5f021c407a", // The ID of your service instance.
+       onLoad: function(instance) { instance.render(); }
+     };
+     setTimeout(function(){
+       const t=document.createElement('script');
+       t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+       document.head.appendChild(t);
+     });
+   </script>
+ 
+  <title>More Info</title>
+   
+    <style>
+      :root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --varyDarkBlue: hsl(234, 12%, 34%);
+    --grayishBlue: hsl(229, 6%, 66%);
+    --veryLightGray: hsl(0, 0%, 98%);
+    --weight1: 200;
+    --weight2: 400;
+    --weight3: 600;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--veryLightGray);
+    
+}
+ 
+.box p {
+    color: var(--grayishBlue);
+}
+
+.box {
+    border-radius: 50px;
+    box-shadow: 0px 30px 40px -20px var(--grayishBlue);
+    padding: 30px;
+    margin: 20px;  
+}
+
+img {
+    /* float: right; */
+    padding-left: 210px;
+    padding-top: -100px;
+}
+
+@media (max-width: 450px) {
+    .box {
+        height: 200px;
+    }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+    .box {
+        text-align: center;
+        height: 180px;
+    }
+}
+
+/* line over cards */
+
+.cyan {
+    border-top: 4px solid var(--cyan);
+}
+.red {
+    border-top: 4px solid var(--red);
+}
+.blue {
+    border-top: 4px solid var(--blue);
+}
+.orange {
+    border-top: 4px solid var(--orange);
+}
+
+h2 {
+    /* color: var(--varyDarkBlue); */
+    font-weight: var(--weight3);
+    text-align: center;
+}
+
+/* for box diveded */
+
+@media (min-width: 950px) {
+    .row1-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .row2-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-down {
+        position: relative;
+        top: 150px;
+    }
+    .box {
+        width: 20%;
+     
+    }
+    .header p {
+        width: 30%;
+    }
+    
+}
+    </style>
+</head>
+<body>
+  <div class="rpp">  
+    <br>
+    <br>
+    <br>
+   
+  <div class="row1-container">
+    <div class="box box-down cyan">
+        <div class="h2" style="text-align: center; font-weight: bolder; font-size: 25px;">
+            <a href="https://www.onlinesbi.sbi/" target="_blank">RBI</a>
+            <br>
+            </div>
+      <!-- <p>Monitors activity to identify project roadblocks</p> -->
+      <img src="/static/download.png" style="width: 90px; padding-left: 110px;"  alt="">
+    </div>
+    <div class="box red">
+        <div class="h2" style="text-align: center; font-weight: bolder; font-size: 25px;">
+            <a href="https://www.ing.com/Home.htm" target="_blank">ING</a>
+            </div>
+      <!-- <p>Scans our talent network to create the optimal team for your project</p> -->
+      <img src="/static/ING.png" style="width: 190px; padding-left: 70px; padding-top: 16px; padding-bottom: 16px;" alt="">
+    </div>
+    <div class="box box-down blue">
+        <div class="h2" style="text-align: center; font-weight: bolder; font-size: 25px;">
+        <a href="https://www.onlinesbi.sbi/" target="_blank">SBI</a>
+        </div>
+      <!-- <p>Uses data from past projects to provide better delivery estimates</p> -->
+      <img src="/static/sbi-logo-33205.png" style="width: 130px; height: 60px; padding-top: 17px; padding-bottom: 17px; padding-left: 90px;" alt="">
+    </div>
+  </div>
+  <div class="row2-container">
+    <div class="box orange">
+        <div class="h2" style="text-align: center; font-weight: bolder; font-size: 25px;">
+            <a href="https://www.unionbankofindia.co.in/english/home.aspx" target="_blank">Union Bank</a>
+            </div>
+       
+      <img src="/static/union_bank-removebg-preview.png" style="width: 150px; height: 100px; padding-left: 80px;" alt="">
+    </div>
+  </div>
+  </div>
+   
+</body>
+</html>
